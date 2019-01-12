@@ -1,0 +1,18 @@
+h1 {
+    background-color: #2F942F;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+    color: #460C4D;
+}
+h2 {
+    color: #460C4D;
+}
+p, p a {
+    color: #460C4D;
+}
+h1 a {
+    color: #070807;
+}
+body {
+    padding-left: 15px;
+}
