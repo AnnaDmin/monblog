@@ -6,8 +6,19 @@
     	<div>
     		<h1>Le Souk du Bachibouzouk</h1>
     		<h2>Zone gratuité "Fringues"</h2>
+    		<br />
 	        <p> Vos placards sont pleins: Venez avec des vètements, des chaussures, des bijoux, du linge de maison ou des sacs en bon état, ils plairont surement à d'autres</p>
-	        <br />
 	        <em>Fouinez, essayez et repartez avec ce qui vous plait</em>
+
+		<div>
+		{% for post in posts %}
+    <div>
+        <p>publié: {{ post.published_date }}</p>
+        <h1><a href="">{{ post.title }}</a></h1>
+        <p>{{ post.text|linebreaksbr }}</p>
+    </div>
+{% endfor %}
+
 	        <p>publié le 12/01/19</p>
+
   
